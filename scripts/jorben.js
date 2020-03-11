@@ -35,3 +35,17 @@ AOS.init();
       ticking = true;
     });
   })();
+
+  if (parseInt($(window).width()) < 768) {
+    $('.right-right').addClass('right');
+  } else {
+    $('.right-right').removeClass('right');
+  }
+
+  $(window).on('resize', function() {
+    if (parseInt($(window).width()) < 768) {
+        $('.right-right').addClass('right');
+    } else {
+      $('.right-right').removeClass('right');
+    }
+});
