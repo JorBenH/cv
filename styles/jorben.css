@@ -74,6 +74,22 @@ body{
     }
 }
 
+.secondTimeLineIcon{
+    border: 2px solid #c07015!important;
+}
+
+.secondTimeLineTitle{
+    background: #c07015!important;
+}
+
+.thirdTimeLineIcon{
+    border: 2px solid #008990!important;
+}
+
+.thirdTimeLineTitle{
+    background: #008990!important;
+}
+
 /*  */
 
 
@@ -114,7 +130,6 @@ body{
   main {
     background: linear-gradient(to bottom, #ffffff 0%, #dddee1 100%);
     border-bottom: 1px solid rgba(0, 0, 0, .2);
-    padding: 10vh 0 80vh;
     position: relative;
     text-align: center;
     overflow: hidden;
